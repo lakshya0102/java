@@ -28,5 +28,5 @@ steps:
     az appservice plan create -g myapp-rg -n myapp-service-plan --is-linux
 
 
-    az webapp create -g myapp-rg -p myapp-service-plan -n my-app-name --runtime "JAVA|8-jre8"
+    az webapp create -g myapp-rg -p myapp-service-plan -n lakshya0102 --runtime "JAVA|8-jre8"
   
